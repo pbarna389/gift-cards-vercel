@@ -25,7 +25,6 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	const [update, setUpdate] = useState<boolean>(true)
 	const categoryData:string[] | undefined = useFetch(`${API}categories`, update, setUpdate)
 	
-	console.log(categoryData)
 
 	const carouselBreakpoints = {
 		0: {
