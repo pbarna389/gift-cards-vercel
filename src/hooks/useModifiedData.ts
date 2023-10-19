@@ -8,7 +8,7 @@ export const useModifiedData = <T>(httpMethod: GetMethods) => {
 	const updateData = useCallback(
 		async (data: T, category = 'all', id = '') => {
 			try {
-				const response = await fetch(`${API}${category}/${id}`, {
+				const response = await fetch(`${API}${category}${id}`, {
 					method: httpMethod,
 					headers: {
 						'Content-Type': 'application/json',

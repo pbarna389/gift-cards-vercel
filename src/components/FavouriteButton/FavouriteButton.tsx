@@ -46,6 +46,10 @@ export const FavouriteButton: FC<FavouriteButtonProps> = ({ giftId, giftName }):
 		let updatedFavourites: FavouritedItem | null = null
 		const { giftData } = favouriteState.favouriteList
 
+		console.log("clickedf")
+
+		setUpdateData(false)
+
 		if (isFavourited) {
 			const updatedGiftList: FavouriteGiftData[] = giftData.filter(
 				(gift: FavouriteGiftData) => gift.giftId !== giftId
