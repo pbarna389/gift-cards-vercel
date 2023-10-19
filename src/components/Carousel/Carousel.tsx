@@ -13,12 +13,11 @@ import { Navigation, Virtual } from 'swiper/modules'
 
 import { Icons } from '..'
 import {
+	StyledSwiper,
 	StyledSwiperSlide,
 	SwiperArrow,
 	SwiperWrapper,
 } from './Carousel.styles'
-
-import { Swiper } from 'swiper/react'
 
 import './Carousel.css'
 import 'swiper/css'
@@ -90,7 +89,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 
 	return (
 		<SwiperWrapper>
-			<Swiper
+			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
 				direction="horizontal"
@@ -116,7 +115,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 				<SwiperArrow className="swiper-next">
 					<FiArrowRightCircle style={{ width: '2rem', height: '2rem' }} />
 				</SwiperArrow>
-			</Swiper>
+			</StyledSwiper>
 		</SwiperWrapper>
 	)
 }
