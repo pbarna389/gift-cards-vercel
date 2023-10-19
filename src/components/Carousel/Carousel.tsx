@@ -19,7 +19,6 @@ import {
 } from './Carousel.styles'
 
 import { Swiper } from 'swiper/react'
-import SwiperCore from 'swiper'
 
 import './Carousel.css'
 import 'swiper/css'
