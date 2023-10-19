@@ -10,14 +10,14 @@ export default defineConfig({
 		tsconfigPaths(),
 		{
 			...replace({
-				'process.env.REACT_APP_API_KEY': JSON.stringify(process.env.REACT_APP_API_KEY),
+				'process.env.REACT_APP_API_KEY': JSON.stringify(
+					process.env.REACT_APP_API_KEY
+				),
 			}),
 			enforce: 'pre',
 		},
 	],
-	build: {
-		cssMinify: false
-	},
+	optimizeDeps: { exclude: ['swiper/vue', 'swiper/types'] },
 	test: {
 		globals: true,
 		environment: 'jsdom',
