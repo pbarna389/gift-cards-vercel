@@ -1,0 +1,1 @@
+export { TextParagraph } from './TextParagraph'

@@ -1,0 +1,1 @@
+export { ParticlesComponent } from './ParticlesComponent'

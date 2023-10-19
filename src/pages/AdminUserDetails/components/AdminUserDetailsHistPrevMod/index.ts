@@ -1,0 +1,1 @@
+export { AdminUserDetailsHistPrevMod } from './AdminUserDeteilsHistPrevMod'

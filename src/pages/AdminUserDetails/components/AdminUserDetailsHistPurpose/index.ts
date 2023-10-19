@@ -1,0 +1,1 @@
+export { AdminUserDetailsListPurpose } from './AdminUserDetailsListPurpose'

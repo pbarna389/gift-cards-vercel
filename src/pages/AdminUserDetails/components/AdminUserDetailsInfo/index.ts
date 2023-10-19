@@ -1,0 +1,1 @@
+export { AdminUserDetailsInfo } from './AdminUserDetailsInfo'

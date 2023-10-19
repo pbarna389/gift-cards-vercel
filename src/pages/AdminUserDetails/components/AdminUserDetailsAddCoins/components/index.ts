@@ -1,0 +1,1 @@
+export { FormikUserDetailsAddCoins } from './FormikUserDetailsAddCoins'
