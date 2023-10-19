@@ -88,12 +88,13 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	}
 
 	return (
-		<SwiperWrapper>
+		<SwiperWrapper className="just-main-wrapper-for-element">
 			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
 				direction="horizontal"
-				navigation={{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }}>
+				navigation={{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }}
+				className="THE-REAL-WRAPPER">
 				{categoryData &&
 					categoryData.map((cat: string, idx: number) => (
 						<StyledSwiperSlide
