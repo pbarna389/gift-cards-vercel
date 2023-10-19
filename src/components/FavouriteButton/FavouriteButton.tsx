@@ -83,7 +83,7 @@ export const FavouriteButton: FC<FavouriteButtonProps> = ({ giftId, giftName }):
 			}
 		}
 		if (updatedFavourites) {
-			await updateFavourites(updatedFavourites, 'favourites', loginState.user.id)
+			await updateFavourites(updatedFavourites, 'favourites/', loginState.user.id)
 			setUpdateData(true)
 		}
 	}
