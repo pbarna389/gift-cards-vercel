@@ -8,7 +8,7 @@ import type { GiftCardAction, GiftCardInStateInter } from '@reducers/index'
 import { Navigation, Virtual } from 'swiper/modules'
 
 import { Icons } from '..'
-import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
+import { StyledSwiper, StyledSwiperSlide, SwiperArrow } from './Carousel.styles'
 
 import './Carousel.css'
 import 'swiper/react';
@@ -83,7 +83,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	}
 
 	return (
-		<SwiperWrapper className='swiper-wrapper'>
+		<>
 			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
@@ -108,6 +108,6 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 					<FiArrowRightCircle style={{ width: '2rem', height: '2rem' }} />
 				</SwiperArrow>
 			</StyledSwiper>
-		</SwiperWrapper>
+		</>
 	)
 }
