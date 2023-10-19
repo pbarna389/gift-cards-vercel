@@ -23,6 +23,7 @@ import SwiperCore from 'swiper'
 
 import './Carousel.css'
 import 'swiper/swiper-bundle.css'
+import 'swiper/css/navigation'
 import { useFetch } from '@hooks/index'
 
 interface CarouselProps {
