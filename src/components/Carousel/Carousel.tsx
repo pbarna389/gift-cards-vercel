@@ -13,7 +13,6 @@ import { Navigation, Virtual } from 'swiper/modules'
 
 import { Icons } from '..'
 import {
-	StyledSwiper,
 	StyledSwiperSlide,
 	SwiperArrow,
 	SwiperWrapper,
