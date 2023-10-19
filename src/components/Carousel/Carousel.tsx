@@ -86,6 +86,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
+				direction='horizontal'
 				navigation={{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }}
 			>
 				{categories.map((cat: string, idx: number) => (

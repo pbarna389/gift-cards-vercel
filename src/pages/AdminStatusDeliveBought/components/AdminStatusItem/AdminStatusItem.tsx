@@ -52,7 +52,7 @@ export const AdminStatusItem: FC<{ boughtGifts: BoughtGifts[] }> = ({ boughtGift
 						break
 				}
 
-				await updatedStatus(updatedUser, 'boughtGifts', `${updatedUser.id || ''}`)
+				await updatedStatus(updatedUser, 'boughtGifts/', `${updatedUser.id || ''}`)
 
 				userDispatch({
 					type: 'RELOAD_MODIFIED_DATA',
