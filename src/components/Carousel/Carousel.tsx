@@ -4,15 +4,24 @@ import { useState } from 'react'
 import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi'
 
 import { API, convertSentence } from '@constants/index'
-import type { FavouriteAction, FavouriteInitialStateInter } from '@reducers/FavouriteReducer'
+import type {
+	FavouriteAction,
+	FavouriteInitialStateInter,
+} from '@reducers/FavouriteReducer'
 import type { GiftCardAction, GiftCardInStateInter } from '@reducers/index'
 import { Navigation, Virtual } from 'swiper/modules'
 
 import { Icons } from '..'
-import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
+import {
+	StyledSwiper,
+	StyledSwiperSlide,
+	SwiperArrow,
+	SwiperWrapper,
+} from './Carousel.styles'
+import SwiperCore from 'swiper'
 
 import './Carousel.css'
-import "swiper/swiper-bundle.css"
+import 'swiper/swiper-bundle.css'
 import { useFetch } from '@hooks/index'
 
 interface CarouselProps {
@@ -20,10 +29,15 @@ interface CarouselProps {
 	state: GiftCardInStateInter | FavouriteInitialStateInter | null
 }
 
+SwiperCore.use([Navigation, Virtual])
+
 export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	const [update, setUpdate] = useState<boolean>(true)
-	const categoryData:string[] | undefined = useFetch(`${API}categories`, update, setUpdate)
-	
+	const categoryData: string[] | undefined = useFetch(
+		`${API}categories`,
+		update,
+		setUpdate
+	)
 
 	const carouselBreakpoints = {
 		0: {
@@ -68,7 +82,10 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 					payload: { categoryName: cat },
 				})
 			} else {
-				dispatch({ type: 'FILTER_DATA_CATEGORY', payload: { categoryName: cat } })
+				dispatch({
+					type: 'FILTER_DATA_CATEGORY',
+					payload: { categoryName: cat },
+				})
 			}
 		}
 	}
@@ -78,20 +95,23 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
-				direction='horizontal'
-				navigation={{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }}
-			>
-				{categoryData && categoryData.map((cat: string, idx: number) => (
-					<StyledSwiperSlide
-						className={state?.category === cat ? 'selected' : ''}
-						key={`${cat}-${idx}`}
-						virtualIndex={idx}
-						onClick={() => handleClick(cat)}
-					>
-						<Icons carousel={true} category={cat} sharedStyle={CarouselSharedStyle} />
-						{convertSentence(cat)}
-					</StyledSwiperSlide>
-				))}
+				direction="horizontal"
+				navigation={{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }}>
+				{categoryData &&
+					categoryData.map((cat: string, idx: number) => (
+						<StyledSwiperSlide
+							className={state?.category === cat ? 'selected' : ''}
+							key={`${cat}-${idx}`}
+							virtualIndex={idx}
+							onClick={() => handleClick(cat)}>
+							<Icons
+								carousel={true}
+								category={cat}
+								sharedStyle={CarouselSharedStyle}
+							/>
+							{convertSentence(cat)}
+						</StyledSwiperSlide>
+					))}
 				<SwiperArrow className="swiper-prev">
 					<FiArrowLeftCircle style={{ width: '2rem', height: '2rem' }} />
 				</SwiperArrow>
