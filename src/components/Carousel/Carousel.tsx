@@ -11,6 +11,7 @@ import { Icons } from '..'
 import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
 
 import './Carousel.css'
+import 'swiper/react';
 import 'swiper/css'
 
 interface CarouselProps {
@@ -82,7 +83,7 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	}
 
 	return (
-		<SwiperWrapper>
+		<SwiperWrapper className='swiper-wrapper'>
 			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}

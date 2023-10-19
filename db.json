@@ -1,15 +1,117 @@
 {
   "categories": [
-    "auto",
-    "books",
-    "clothes",
-    "cosmetics",
-    "entertainment",
-    "food_and_drink",
-    "games",
-    "home_and_appliances",
-    "jewelry_and_bijouterie",
-    "tv"
+    {
+      "id": 1,
+      "name": {
+        "en": "all1"
+      },
+      "iconUrl": "",
+      "active": false
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "auto"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "books"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "clothes"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "cosmetics"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "entertainment"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "food_and_drink"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "games"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "home_and_appliances"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "jewelry_and_bijouterie"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "tv"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "new"
+      },
+      "iconUrl": "",
+      "active": true
+    },
+    {
+      "name": {
+        "en": "New_category11"
+      },
+      "iconUrl": "qweqweqwe12312312",
+      "active": true,
+      "id": 13
+    },
+    {
+      "name": {
+        "en": "New_categoryeqweqweqweqw"
+      },
+      "iconUrl": "12321",
+      "active": true,
+      "id": 14
+    }
   ],
   "auto": [
     {
@@ -21,7 +123,7 @@
       "backgroundImg": "",
       "cardImg": "",
       "price": 10,
-      "attentionMessage": "Ukranian only, sushi can be interesting, only accepts virgin's blood for payment",
+      "attentionMessage": "",
       "bought": 0,
       "shortDesc": "WOG Cafe gift card",
       "description": "WOG Cafe is a restaurant chain that takes care of the mood and diet of its visitors. The first restaurant was founded in 2015, and today there are more than 30 of them throughout the country. Aromatic coffee, democratic burgers and gourmet dishes from different cuisines of the world will appeal to everyone. 500 UAH gift card"
@@ -1112,14 +1214,14 @@
   "all": [
     {
       "id": 3,
-      "name": "WOG Auto 200 UAH",
+      "name": "WOG Auto 200 UAH1",
       "region": "uk",
       "regionFlag": "🇺🇦",
       "backgroundImg": "",
       "categoryID": "auto",
       "cardImg": "",
       "price": 4,
-      "attentionMessage": "Attention test 01",
+      "attentionMessage": "",
       "shortDesc": "WOG gift card",
       "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 200 UAH gift card. "
     },
@@ -2069,143 +2171,6 @@
       "birthDay": 0,
       "division": "JS",
       "role": "ADMIN",
-      "prevPurchase": [
-        {
-          "gifts": [
-            {
-              "id": 1,
-              "categoryID": "auto",
-              "name": "WOG Cafe",
-              "region": "uk",
-              "backgroundImg": "",
-              "cardImg": "",
-              "price": 10,
-              "attentionMessage": "",
-              "bought": 0,
-              "shortDesc": "WOG Cafe gift card",
-              "description": "WOG Cafe is a restaurant chain that takes care of the mood and diet of its visitors. The first restaurant was founded in 2015, and today there are more than 30 of them throughout the country. Aromatic coffee, democratic burgers and gourmet dishes from different cuisines of the world will appeal to everyone. 500 UAH gift card",
-              "amount": 1
-            }
-          ],
-          "boughtTime": "29/09/2023, 17:20",
-          "cost": 10
-        },
-        {
-          "gifts": [
-            {
-              "id": 1,
-              "name": "1WOG Cafe",
-              "region": "uk",
-              "backgroundImg": "",
-              "categoryID": "auto",
-              "cardImg": "",
-              "price": 10,
-              "attentionMessage": "",
-              "shortDesc": "WOG Cafe gift card",
-              "description": "WOG Cafe is a restaurant chain that takes care of the mood and diet of its visitors. The first restaurant was founded in 2015, and today there are more than 30 of them throughout the country. Aromatic coffee, democratic burgers and gourmet dishes from different cuisines of the world will appeal to everyone. 500 UAH gift card",
-              "amount": 1
-            }
-          ],
-          "boughtTime": "29/09/2023, 18:46",
-          "cost": 10
-        },
-        {
-          "gifts": [
-            {
-              "id": 3,
-              "name": "WOG Auto 200 UAH",
-              "region": "uk",
-              "backgroundImg": "",
-              "categoryID": "auto",
-              "cardImg": "",
-              "price": 4,
-              "attentionMessage": "",
-              "shortDesc": "WOG gift card",
-              "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 200 UAH gift card. ",
-              "amount": 23
-            }
-          ],
-          "boughtTime": "29/09/2023, 18:53",
-          "cost": 92
-        },
-        {
-          "gifts": [
-            {
-              "id": 6,
-              "name": "АТL",
-              "region": "uk",
-              "backgroundImg": "",
-              "categoryID": "auto",
-              "cardImg": "",
-              "price": 10,
-              "attentionMessage": "",
-              "shortDesc": "ATL car service gift card",
-              "description": "ATL is one of the largest retail chains of auto shops and car services in Ukraine, the main independent player in the auto business sector. The network includes 42 retail car dealerships and 25 car services throughout Ukraine. 500 UAH gift card",
-              "amount": 1
-            }
-          ],
-          "boughtTime": "02/10/2023, 14:54",
-          "cost": 10
-        },
-        {
-          "gifts": [
-            {
-              "id": 18,
-              "name": "Sister's Aroma gift card",
-              "region": "uk",
-              "backgroundImg": "",
-              "categoryID": "cosmetics",
-              "cardImg": "",
-              "price": 10,
-              "attentionMessage": "",
-              "shortDesc": "brabrabra gift card",
-              "description": "Sister's Aroma is a brand of niche fragrances, home fragrances and smart care products that were created on the basis of the clean beauty philosophy - natural ingredients and nothing superfluous in the composition. 500 UAH gift card",
-              "amount": 1
-            },
-            {
-              "id": 17,
-              "name": "Shopper JS/UI",
-              "region": "uk",
-              "backgroundImg": "",
-              "categoryID": "clothes",
-              "cardImg": "",
-              "price": 10,
-              "attentionMessage": "",
-              "shortDesc": "JS/UI shopper (4 pieces available)",
-              "description": null,
-              "amount": 1
-            },
-            {
-              "id": 16,
-              "name": "ASOS",
-              "region": "uk",
-              "backgroundImg": "",
-              "categoryID": "clothes",
-              "cardImg": "",
-              "price": 1,
-              "attentionMessage": "",
-              "shortDesc": "ASOS gift voucher",
-              "description": "ASOS is a British online clothing and cosmetics retailer. The company was founded in 2000 in London and was primarily aimed at young people. The website sells more than 850 brands as well as its own range of clothing and accessories. $13 gift card",
-              "amount": 1
-            },
-            {
-              "id": 15,
-              "name": "H&M",
-              "region": "eu",
-              "backgroundImg": "",
-              "categoryID": "clothes",
-              "cardImg": "",
-              "price": 10,
-              "attentionMessage": "",
-              "shortDesc": "H&M gift card",
-              "description": "H&M (Hennes & Mauritz) is a Swedish company, Europe's largest clothing retailer, based in Stockholm, Sweden. $13 gift card",
-              "amount": 1
-            }
-          ],
-          "boughtTime": "02/10/2023, 15:21",
-          "cost": 31
-        }
-      ],
       "profilePic": "https://lh3.googleusercontent.com/a/ACg8ocLZUVpjjDoMOqACBnYpnyEsGlaB4GldL9IfwtT1-zyzvg=s96-c",
       "region": "eu",
       "startedWorking": 2023
@@ -2260,7 +2225,7 @@
     },
     {
       "userName": "Barnabas Papp",
-      "coins": 999189,
+      "coins": 999142,
       "email": "barnabas.papp@nixs.com",
       "id": "user-6",
       "birthDay": 0,
@@ -2634,16 +2599,56 @@
           "cost": 35,
           "deliveryStatus": "JUST_BOUGHT",
           "status": "1"
-        }
-      ],
-      "prevGiftedCoins": [
+        },
         {
-          "id": "user-3-giftCoin-14",
-          "amount": 14,
-          "senderUser": "Emily Smith",
-          "senderId": "user-6",
-          "date": "2023-9-0-0-41-27}",
-          "isDelivered": true
+          "gifts": [
+            {
+              "id": 4,
+              "name": "ОККО (Fishka) 200UAH",
+              "region": "uk",
+              "regionFlag": "🇺🇦",
+              "backgroundImg": "",
+              "categoryID": "auto",
+              "cardImg": "",
+              "price": 4,
+              "attentionMessage": "",
+              "shortDesc": "ОККО gift card",
+              "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 200 UAH gift card",
+              "amount": 1
+            },
+            {
+              "id": 3,
+              "name": "WOG Auto 200 UAH1",
+              "region": "uk",
+              "regionFlag": "🇺🇦",
+              "backgroundImg": "",
+              "categoryID": "auto",
+              "cardImg": "",
+              "price": 4,
+              "attentionMessage": "",
+              "shortDesc": "WOG gift card",
+              "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 200 UAH gift card. ",
+              "amount": 1
+            },
+            {
+              "id": 5,
+              "name": "ОККО (Fishka) 500UAH",
+              "region": "uk",
+              "regionFlag": "🇺🇦",
+              "backgroundImg": "",
+              "categoryID": "auto",
+              "cardImg": "",
+              "price": 10,
+              "attentionMessage": "",
+              "shortDesc": "ОККО gift card",
+              "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 500 UAH gift card",
+              "amount": 3
+            }
+          ],
+          "boughtTime": "18/10/2023, 17:50",
+          "cost": 38,
+          "deliveryStatus": "JUST_BOUGHT",
+          "status": "1"
         }
       ],
       "profilePic": "https://lh3.googleusercontent.com/a/ACg8ocK-2HUuje-SOMfRYTQuHUEjJyEXTP6c8a8BgkwaeZETLw=s96-c",
@@ -2696,18 +2701,6 @@
       "id": "user-6",
       "notificationMessages": [
         {
-          "id": "user-3-giftCoin-7-2023-9-4-18-41-26",
-          "creationTime": "2023-9-4-18-41-26",
-          "isDelivered": true,
-          "senderId": "user-3",
-          "senderName": "Emily Smith",
-          "content": {
-            "type": "GIFT_COINS",
-            "amount": 7,
-            "giftName": "coins"
-          }
-        },
-        {
           "id": "user-3-giftCoin-6-2023-9-4-18-41-23",
           "creationTime": "2023-9-4-18-41-23",
           "isDelivered": true,
@@ -2730,6 +2723,49 @@
             "amount": 5,
             "giftName": "coins"
           }
+        },
+        {
+          "id": "user-3-giftCoin-7-2023-9-4-18-41-26",
+          "creationTime": "2023-9-4-18-41-26",
+          "isDelivered": true,
+          "senderId": "user-3",
+          "senderName": "Emily Smith",
+          "content": {
+            "type": "GIFT_COINS",
+            "amount": 7,
+            "giftName": "coins"
+          }
+        }
+      ]
+    }
+  ],
+  "favourites": [
+    {
+      "id": "user-6",
+      "giftData": [
+        {
+          "giftId": 50,
+          "giftName": "METRO"
+        },
+        {
+          "giftId": 11,
+          "giftName": "Paliturka"
+        },
+        {
+          "giftId": 12,
+          "giftName": "TOMMY HILFIGER"
+        },
+        {
+          "giftId": 10,
+          "giftName": "The book 'Weapons of Victory'"
+        },
+        {
+          "giftId": 6,
+          "giftName": "АТL"
+        },
+        {
+          "giftId": 9,
+          "giftName": "Staryi Lev"
         }
       ]
     }
@@ -2806,37 +2842,442 @@
       "boughtBy": "Mykhailo Rusyn",
       "idUser": "user-1",
       "id": 5
-    }
-  ],
-  "favourites": [
+    },
     {
-      "id": "user-6",
-      "giftData": [
+      "gifts": [
         {
-          "giftId": 50,
-          "giftName": "METRO"
+          "id": 2,
+          "name": "WOG Auto 500 UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "WOG gift card",
+          "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 500 UAH gift card. ",
+          "amount": 1
         },
         {
-          "giftId": 11,
-          "giftName": "Paliturka"
+          "id": 3,
+          "name": "WOG Auto 200 UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 4,
+          "attentionMessage": "",
+          "shortDesc": "WOG gift card",
+          "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 200 UAH gift card. ",
+          "amount": 1
         },
         {
-          "giftId": 12,
-          "giftName": "TOMMY HILFIGER"
+          "id": 1,
+          "name": "1WOG Cafe",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "WOG Cafe gift card",
+          "description": "WOG Cafe is a restaurant chain that takes care of the mood and diet of its visitors. The first restaurant was founded in 2015, and today there are more than 30 of them throughout the country. Aromatic coffee, democratic burgers and gourmet dishes from different cuisines of the world will appeal to everyone. 500 UAH gift card",
+          "amount": 1
         },
         {
-          "giftId": 4,
-          "giftName": "ОККО (Fishka) 200UAH"
+          "id": 5,
+          "name": "ОККО (Fishka) 500UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "ОККО gift card",
+          "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 500 UAH gift card",
+          "amount": 1
         },
         {
-          "giftId": 5,
-          "giftName": "ОККО (Fishka) 500UAH"
+          "id": 6,
+          "name": "АТL",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "ATL car service gift card",
+          "description": "ATL is one of the largest retail chains of auto shops and car services in Ukraine, the main independent player in the auto business sector. The network includes 42 retail car dealerships and 25 car services throughout Ukraine. 500 UAH gift card",
+          "amount": 1
         },
         {
-          "giftId": 3,
-          "giftName": "WOG Auto 200 UAH"
+          "id": 7,
+          "name": "Yakaboo",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "books",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "Gift card Yakaboo",
+          "description": "Yakaboo is the largest online bookstore in Ukraine. It is an online organisation that is a large-scale book ecosystem that works with most of the publishing houses in Ukraine. It delivers not only in Kyiv but also to other regions of Ukraine. UAH 500 gift card.",
+          "amount": 1
         }
-      ]
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 6,
+      "boughtTime": "28/09/2023, 19:16",
+      "cost": 54
+    },
+    {
+      "gifts": [
+        {
+          "id": 2,
+          "name": "WOG Auto 500 UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "WOG gift card",
+          "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 500 UAH gift card. ",
+          "amount": 1
+        },
+        {
+          "id": 1,
+          "name": "1WOG Cafe",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "WOG Cafe gift card",
+          "description": "WOG Cafe is a restaurant chain that takes care of the mood and diet of its visitors. The first restaurant was founded in 2015, and today there are more than 30 of them throughout the country. Aromatic coffee, democratic burgers and gourmet dishes from different cuisines of the world will appeal to everyone. 500 UAH gift card",
+          "amount": 1
+        }
+      ],
+      "boughtTime": "28/09/2023, 19:26",
+      "cost": 20,
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 7
+    },
+    {
+      "gifts": [
+        {
+          "id": 2,
+          "name": "WOG Auto 500 UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "WOG gift card",
+          "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 500 UAH gift card. ",
+          "amount": 1
+        },
+        {
+          "id": 3,
+          "name": "WOG Auto 200 UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 4,
+          "attentionMessage": "",
+          "shortDesc": "WOG gift card",
+          "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 200 UAH gift card. ",
+          "amount": 1
+        },
+        {
+          "id": 4,
+          "name": "ОККО (Fishka) 200UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 4,
+          "attentionMessage": "",
+          "shortDesc": "ОККО gift card",
+          "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 200 UAH gift card",
+          "amount": 3
+        }
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 7,
+      "boughtTime": "28/09/2023, 19:31",
+      "cost": 26
+    },
+    {
+      "gifts": [
+        {
+          "id": 3,
+          "name": "WOG Auto 200 UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 4,
+          "attentionMessage": "",
+          "shortDesc": "WOG gift card",
+          "description": "WOG is one of the largest filling stations networks in Ukraine, occupying more than 400 filling stations. The WOG network of gas stations was established in 2000 and has since delighted residents and guests with quality fuel and service. Thanks to this, WOG is happy to feed its consumers with delicacies from WOG CAFE and help to get on the road, buying everything you need in WOG MARKET and make travel comfortable and unforgettable! High standards of service and the level of fuel confirmation of the ISO 9001 certificate, and wide opportunities at each station provide comfort to both the car and its owner. 200 UAH gift card. ",
+          "amount": 1
+        },
+        {
+          "id": 4,
+          "name": "ОККО (Fishka) 200UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 4,
+          "attentionMessage": "",
+          "shortDesc": "ОККО gift card",
+          "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 200 UAH gift card",
+          "amount": 1
+        },
+        {
+          "id": 7,
+          "name": "Yakaboo",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "books",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "Gift card Yakaboo",
+          "description": "Yakaboo is the largest online bookstore in Ukraine. It is an online organisation that is a large-scale book ecosystem that works with most of the publishing houses in Ukraine. It delivers not only in Kyiv but also to other regions of Ukraine. UAH 500 gift card.",
+          "amount": 1
+        },
+        {
+          "id": 8,
+          "name": "The book `Press Reset`",
+          "region": "uk",
+          "backgroundImg": "",
+          "cardImg": "",
+          "categoryID": "books",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "Burnout and recovery in the video game industry, a book by Jason Schreier",
+          "description": "Blood, Sweat, and Pixels is a book about the complexities of creating video games. The author has determined that games are somewhere in between art, science, technological progress and business, which seeks to create an entertaining product and make money on it. It is because of all this that the lion's share of games are delayed, and developers are working in emergency mode.",
+          "amount": 1
+        },
+        {
+          "id": 10,
+          "name": "The book 'Weapons of Victory'",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "books",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "Weapons of Victory by military historian and journalist Mykhailo Zhyrokhov",
+          "description": "Weapons of Victory is not a classic non-fiction or science-pop book. It is the first complete guide to the Ukrainian army's weapons, with all the consequences that entails: there is a lot of information, it is well structured, but divided into many separate chapters and sections. It contains everything that Ukrainians have learned about over the past year and more: Javelin, HIMARS, M270, Neptune NLAW, HMMWV, Brimstone, M777, PT-91 Twardy, Bayraktar TB2, Bushmaster, etc. However, the directory does not include various foreign tanks, including Leopard 2, Challenger 2 and M1 Abrams, the F-16 aircraft, some self-propelled artillery systems, and many air and missile defence systems, such as Patriot, Skynex, etc.",
+          "amount": 1
+        },
+        {
+          "id": 12,
+          "name": "TOMMY HILFIGER",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "clothes",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "Tommy Hilfiger gift card",
+          "description": "The Tommy Hilfiger trademark successfully combines classic and everyday in their clothing and footwear models, while always focusing on current trends. Products for adults and children are always an impeccable quality brand with a worldwide reputation. When ordering a trademark certificate, you will receive a card from MD Fashion, the exclusive representative in Ukraine. 500 UAH gift card",
+          "amount": 2
+        },
+        {
+          "id": 11,
+          "name": "Paliturka",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "books",
+          "cardImg": "",
+          "price": 7,
+          "attentionMessage": "",
+          "shortDesc": "Monthly subscription to the Paliturka online library",
+          "description": "PALITURKA is a Ukrainian project created to support reading in Ukraine. The development of publishing is not an abstract question of values, it is a strategic task facing our country. Economic growth depends on people who read. That is why we have strengthened the publishing industry with IT technologies to help create a modern reading ecosystem in Ukraine.",
+          "amount": 2
+        }
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 8,
+      "boughtTime": "28/09/2023, 19:34",
+      "cost": 72
+    },
+    {
+      "gifts": [
+        {
+          "id": 5,
+          "name": "ОККО (Fishka) 500UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "ОККО gift card",
+          "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 500 UAH gift card",
+          "amount": 7
+        },
+        {
+          "id": 12,
+          "name": "TOMMY HILFIGER",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "clothes",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "Tommy Hilfiger gift card",
+          "description": "The Tommy Hilfiger trademark successfully combines classic and everyday in their clothing and footwear models, while always focusing on current trends. Products for adults and children are always an impeccable quality brand with a worldwide reputation. When ordering a trademark certificate, you will receive a card from MD Fashion, the exclusive representative in Ukraine. 500 UAH gift card",
+          "amount": 2
+        }
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 9,
+      "boughtTime": "02/10/2023, 16:05",
+      "cost": 90
+    },
+    {
+      "gifts": [
+        {
+          "id": 6,
+          "name": "АТL",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "ATL car service gift card",
+          "description": "ATL is one of the largest retail chains of auto shops and car services in Ukraine, the main independent player in the auto business sector. The network includes 42 retail car dealerships and 25 car services throughout Ukraine. 500 UAH gift card",
+          "amount": 4
+        }
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 10,
+      "boughtTime": "03/10/2023, 10:55",
+      "cost": 40
+    },
+    {
+      "gifts": [
+        {
+          "id": 5,
+          "name": "ОККО (Fishka) 500UAH",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "auto",
+          "cardImg": "",
+          "price": 10,
+          "attentionMessage": "",
+          "shortDesc": "ОККО gift card",
+          "description": "OKKO All-Ukrainian gas station network is aimed at high-quality service and always offers its customers international-class fuel at affordable prices. 500 UAH gift card",
+          "amount": 3
+        }
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 11,
+      "boughtTime": "06/10/2023, 10:33",
+      "cost": 30
+    },
+    {
+      "gifts": [
+        {
+          "id": 77,
+          "name": "Kyivstar TV",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "tv",
+          "cardImg": "",
+          "price": 9,
+          "attentionMessage": "",
+          "shortDesc": "Kyivstar TV gift card",
+          "description": "Kyivstar TV is a digital interactive television and video library service with legal content. The platform provides access to more than 300 TV channels from all over the world, and also contains about 20,000 films, series, cartoons, shows, exclusive projects from international film studios and Ukrainian production. A large selection of diverse content will surely satisfy the taste of all members of your family, watch each one of your own on five screens separately and without loss of quality. Package ''Family'' for 3 months",
+          "amount": 3
+        }
+      ],
+      "status": "1",
+      "deliveryStatus": "JUST_BOUGHT",
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 12,
+      "boughtTime": "28/09/2023, 19:16",
+      "cost": 27
+    },
+    {
+      "gifts": [
+        {
+          "id": 11,
+          "name": "Paliturka",
+          "region": "uk",
+          "backgroundImg": "",
+          "categoryID": "books",
+          "cardImg": "",
+          "price": 7,
+          "attentionMessage": "",
+          "shortDesc": "Monthly subscription to the Paliturka online library",
+          "description": "PALITURKA is a Ukrainian project created to support reading in Ukraine. The development of publishing is not an abstract question of values, it is a strategic task facing our country. Economic growth depends on people who read. That is why we have strengthened the publishing industry with IT technologies to help create a modern reading ecosystem in Ukraine.",
+          "amount": 5
+        }
+      ],
+      "boughtBy": "Barnabás Papp",
+      "idUser": "user-6",
+      "id": 13,
+      "boughtTime": "12/10/2023, 12:46",
+      "cost": 35,
+      "deliveryStatus": "JUST_BOUGHT",
+      "status": "1"
+    },
+    {
+      "gifts": [
+        {
+          "id": 77,
+          "name": "Kyivstar TV",
+          "region": "uk",
+          "regionFlag": "🇺🇦",
+          "backgroundImg": "",
+          "categoryID": "tv",
+          "cardImg": "",
+          "price": 9,
+          "attentionMessage": "",
+          "shortDesc": "Kyivstar TV gift card",
+          "description": "Kyivstar TV is a digital interactive television and video library service with legal content. The platform provides access to more than 300 TV channels from all over the world, and also contains about 20,000 films, series, cartoons, shows, exclusive projects from international film studios and Ukrainian production. A large selection of diverse content will surely satisfy the taste of all members of your family, watch each one of your own on five screens separately and without loss of quality. Package ''Family'' for 3 months",
+          "amount": 1
+        }
+      ],
+      "boughtTime": "18/10/2023, 18:06",
+      "cost": 9,
+      "deliveryStatus": "JUST_BOUGHT",
+      "status": "1",
+      "boughtBy": "Barnabas Papp",
+      "idUser": "user-6",
+      "id": 14
     }
   ]
 }
