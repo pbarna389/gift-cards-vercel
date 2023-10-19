@@ -17,7 +17,7 @@ export default defineConfig({
 			enforce: 'pre',
 		},
 	],
-	optimizeDeps: { exclude: ['swiper/vue', 'swiper/types'] },
+	optimizeDeps: { exclude: ['swiper/react', 'swiper/types'] },
 	test: {
 		globals: true,
 		environment: 'jsdom',
