@@ -43,6 +43,7 @@
 		"yup": "^1.2.0"
 	},
 	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^5.0.0",
 		"@rollup/plugin-replace": "^5.0.2",
 		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^14.0.0",
