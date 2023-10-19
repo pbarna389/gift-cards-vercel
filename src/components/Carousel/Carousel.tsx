@@ -1,18 +1,20 @@
 import type { Dispatch, FC } from 'react'
+import { useState } from 'react'
 
 import { FiArrowLeftCircle, FiArrowRightCircle } from 'react-icons/fi'
 
-import { convertSentence } from '@constants/index'
+import { API, convertSentence } from '@constants/index'
 import type { FavouriteAction, FavouriteInitialStateInter } from '@reducers/FavouriteReducer'
 import type { GiftCardAction, GiftCardInStateInter } from '@reducers/index'
 import { Navigation, Virtual } from 'swiper/modules'
 
 import { Icons } from '..'
-import { StyledSwiper, StyledSwiperSlide, SwiperArrow } from './Carousel.styles'
+import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
 
 import './Carousel.css'
 import 'swiper/react';
 import 'swiper/css'
+import { useFetch } from '@hooks/index'
 
 interface CarouselProps {
 	dispatch: Dispatch<GiftCardAction> | Dispatch<FavouriteAction> | null
@@ -20,6 +22,11 @@ interface CarouselProps {
 }
 
 export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
+	const [update, setUpdate] = useState<boolean>(true)
+	const categoryData:string[] | undefined = useFetch(`${API}categories`, update, setUpdate)
+	
+	console.log(categoryData)
+
 	const carouselBreakpoints = {
 		0: {
 			slidesPerGroup: 1,
@@ -47,20 +54,6 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 		},
 	}
 
-	const categories = [
-		'all',
-		'auto',
-		'books',
-		'clothes',
-		'cosmetics',
-		'entertainment',
-		'food_and_drink',
-		'games',
-		'home_and_appliances',
-		'jewelry_and_bijouterie',
-		'tv',
-	]
-
 	const CarouselSharedStyle = {
 		border: '1px solid white',
 		borderRadius: '50%',
@@ -83,14 +76,14 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	}
 
 	return (
-		<>
+		<SwiperWrapper>
 			<StyledSwiper
 				breakpoints={carouselBreakpoints}
 				modules={[Navigation, Virtual]}
 				direction='horizontal'
 				navigation={{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }}
 			>
-				{categories.map((cat: string, idx: number) => (
+				{categoryData && categoryData.map((cat: string, idx: number) => (
 					<StyledSwiperSlide
 						className={state?.category === cat ? 'selected' : ''}
 						key={`${cat}-${idx}`}
@@ -108,6 +101,6 @@ export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 					<FiArrowRightCircle style={{ width: '2rem', height: '2rem' }} />
 				</SwiperArrow>
 			</StyledSwiper>
-		</>
+		</SwiperWrapper>
 	)
 }
