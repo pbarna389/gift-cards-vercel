@@ -12,10 +12,7 @@ import { Icons } from '..'
 import { StyledSwiper, StyledSwiperSlide, SwiperArrow, SwiperWrapper } from './Carousel.styles'
 
 import './Carousel.css'
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import 'swiper/css/navigation';
-import "swiper/css/scrollbar";
+import "swiper/swiper-bundle.css"
 import { useFetch } from '@hooks/index'
 
 interface CarouselProps {
