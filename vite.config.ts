@@ -15,9 +15,6 @@ export default defineConfig({
 			enforce: 'pre',
 		},
 	],
-  build: {
-    cssMinify: false,
-  },
 	test: {
 		globals: true,
 		environment: 'jsdom',
