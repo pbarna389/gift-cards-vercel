@@ -22,16 +22,13 @@ import { Swiper } from 'swiper/react'
 import SwiperCore from 'swiper'
 
 import './Carousel.css'
-import 'swiper/swiper-bundle.css'
-import 'swiper/css/navigation'
+import 'swiper/css'
 import { useFetch } from '@hooks/index'
 
 interface CarouselProps {
 	dispatch: Dispatch<GiftCardAction> | Dispatch<FavouriteAction> | null
 	state: GiftCardInStateInter | FavouriteInitialStateInter | null
 }
-
-SwiperCore.use([Navigation, Virtual])
 
 export const Carousel: FC<CarouselProps> = ({ state, dispatch }) => {
 	const [update, setUpdate] = useState<boolean>(true)
