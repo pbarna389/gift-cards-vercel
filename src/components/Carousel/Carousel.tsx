@@ -19,8 +19,6 @@ import {
 	SwiperWrapper,
 } from './Carousel.styles'
 
-import './Carousel.css'
-import 'swiper/css'
 import { useFetch } from '@hooks/index'
 
 interface CarouselProps {
