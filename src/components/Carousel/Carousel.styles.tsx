@@ -1,14 +1,8 @@
 import { sharedProps } from '@constants/styles'
 import { styled } from 'styled-components'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Virtual } from 'swiper/modules'
 
-import SwiperCore from 'swiper'
-
-SwiperCore.use([Navigation, Virtual])
-
-import './Carousel.css'
-import 'swiper/css'
 
 export const SwiperWrapper = styled.div`
 	position: relative;
